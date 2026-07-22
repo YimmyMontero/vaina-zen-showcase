@@ -16,11 +16,11 @@ export const Route = createFileRoute("/")({
         content:
           "Catálogo premium de fundas para iPhone 11, 12, 13 y 14. Diseños únicos, colecciones exclusivas y compra directa por WhatsApp desde Chía.",
       },
-      { property: "og:title", content: "Vaina Pro Max · Fundas premium para iPhone" },
+      { property: "og:title", content: "Vaina Pro Max · Fundas premium para iPhone en Chía" },
       {
         property: "og:description",
         content:
-          "Diseños únicos, calidad y estilo. Fundas premium para iPhone 11, 12, 13 y 14. Compra directa por WhatsApp.",
+          "Catálogo premium de fundas para iPhone 11, 12, 13 y 14. Diseños únicos, colecciones exclusivas y compra directa por WhatsApp desde Chía.",
       },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },

@@ -77,14 +77,18 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Lovable App" },
-      { name: "description", content: "Lovable Generated Project" },
+      { title: "Vaina Pro Max · Fundas premium para iPhone en Chía" },
+      { name: "description", content: "Catálogo premium de fundas para iPhone 11, 12, 13 y 14. Diseños únicos, colecciones exclusivas y compra directa por WhatsApp desde Chía." },
       { name: "author", content: "Lovable" },
-      { property: "og:title", content: "Lovable App" },
-      { property: "og:description", content: "Lovable Generated Project" },
+      { property: "og:title", content: "Vaina Pro Max · Fundas premium para iPhone en Chía" },
+      { property: "og:description", content: "Catálogo premium de fundas para iPhone 11, 12, 13 y 14. Diseños únicos, colecciones exclusivas y compra directa por WhatsApp desde Chía." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
       { name: "twitter:site", content: "@Lovable" },
+      { name: "twitter:title", content: "Vaina Pro Max · Fundas premium para iPhone en Chía" },
+      { name: "twitter:description", content: "Catálogo premium de fundas para iPhone 11, 12, 13 y 14. Diseños únicos, colecciones exclusivas y compra directa por WhatsApp desde Chía." },
+      { property: "og:image", content: "https://storage.googleapis.com/gpt-engineer-file-uploads/attachments/og-images/b5ef261e-b653-4d44-a26a-4ffeaf79a7d3" },
+      { name: "twitter:image", content: "https://storage.googleapis.com/gpt-engineer-file-uploads/attachments/og-images/b5ef261e-b653-4d44-a26a-4ffeaf79a7d3" },
     ],
     links: [
       {
