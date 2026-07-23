@@ -21,14 +21,14 @@ export function ProductCard({ product, onOpen }: Props) {
           className="absolute inset-0 transition-transform duration-700 group-hover:scale-105"
           style={{ background: product.gradient }}
         />
-        {/* iPhone silhouette overlay */}
-        <div className="absolute inset-0 grid place-items-center">
-          <div className="relative h-[72%] w-[42%] rounded-[2.4rem] border border-black/20 shadow-2xl backdrop-blur-sm"
-               style={{ background: "rgba(0,0,0,0.08)" }}>
-            <div className="absolute left-1/2 top-2 h-1.5 w-16 -translate-x-1/2 rounded-full bg-black/25" />
-            <div className="absolute right-3 top-3 h-10 w-10 rounded-2xl bg-black/25" />
-          </div>
-        </div>
+        {product.image && (
+          <img
+            src={product.image}
+            alt={product.name}
+            loading="lazy"
+            className="absolute inset-0 h-full w-full object-cover transition-transform duration-700 group-hover:scale-105"
+          />
+        )}
         <div
           aria-hidden
           className="absolute inset-0"
