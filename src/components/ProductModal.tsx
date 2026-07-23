@@ -47,15 +47,13 @@ export function ProductModal({ product, onClose }: Props) {
             className="relative aspect-square w-full md:aspect-auto"
             style={{ background: product.gradient }}
           >
-            <div className="absolute inset-0 grid place-items-center">
-              <div
-                className="relative h-[68%] w-[38%] rounded-[2.4rem] border border-black/20 shadow-2xl"
-                style={{ background: "rgba(0,0,0,0.08)" }}
-              >
-                <div className="absolute left-1/2 top-3 h-1.5 w-16 -translate-x-1/2 rounded-full bg-black/25" />
-                <div className="absolute right-4 top-4 h-12 w-12 rounded-2xl bg-black/25" />
-              </div>
-            </div>
+            {product.image && (
+              <img
+                src={product.image}
+                alt={product.name}
+                className="absolute inset-0 h-full w-full object-cover"
+              />
+            )}
             {product.badge && (
               <span className="absolute left-4 top-4 rounded-full border border-[color:var(--color-gold)]/60 bg-[color:var(--color-ink)]/70 px-3 py-1 text-[0.6rem] font-semibold uppercase tracking-[0.2em] text-[color:var(--color-gold)] backdrop-blur">
                 {product.badge}
