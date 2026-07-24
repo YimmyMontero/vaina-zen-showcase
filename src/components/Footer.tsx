@@ -1,6 +1,7 @@
 import { Instagram, Facebook, MessageCircle } from "lucide-react";
 import { siteConfig } from "@/config/site";
 import { getWhatsAppUrl } from "@/lib/whatsapp";
+import logoAsset from "@/assets/logo-vaina.png.asset.json";
 
 export function Footer() {
   return (
@@ -8,9 +9,11 @@ export function Footer() {
       <div className="container-x grid gap-10 py-16 md:grid-cols-[1.4fr_1fr_1fr]">
         <div>
           <div className="flex items-center gap-2">
-            <span className="grid h-9 w-9 place-items-center rounded-full border border-[color:var(--color-gold)] text-[color:var(--color-gold)] text-sm font-bold">
-              V
-            </span>
+            <img
+              src={logoAsset.url}
+              alt="Vaina Pro Max"
+              className="h-11 w-11 rounded-full object-contain"
+            />
             <span className="text-sm font-semibold tracking-[0.28em] uppercase">
               Vaina <span className="gold-text">Pro Max</span>
             </span>
