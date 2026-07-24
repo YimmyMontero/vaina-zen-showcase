@@ -75,7 +75,7 @@ export const products: Product[] = [
     price: 28000,
     category: "Tridimensional",
     models: ["iPhone 14"],
-    image: "/__l5e/assets-v1/50db2cb2-a0b6-423e-bccc-75e404cd90fb/dimension-orejitas.jpg",
+    image: "/__l5e/assets-v1/c69a5d2c-6f67-4eaf-ba05-ccce8aa65208/dimension-orejitas.jpg",
     gradient: "linear-gradient(135deg,#fce8f0,#f4a6c0)",
   },
   {
@@ -85,7 +85,7 @@ export const products: Product[] = [
     price: 35000,
     category: "Tridimensional",
     models: ["iPhone 14"],
-    image: "/__l5e/assets-v1/0d88ed27-427c-42f1-9e6b-f182cb9fa2a6/dimension-floral.jpg",
+    image: "/__l5e/assets-v1/bb83ee12-3291-4d7f-805f-dcd7e6bab279/dimension-floral.jpg",
     gradient: "linear-gradient(135deg,#c8a2d8,#e8d5f2)",
     badge: "Más vendido",
     featured: true,
@@ -192,7 +192,7 @@ export const products: Product[] = [
     price: 22000,
     category: "Prisma",
     models: ["iPhone 11", "iPhone 12"],
-    image: "/__l5e/assets-v1/532e5138-911c-4b65-a68c-36b81fa69aab/fulgor-del-alba.jpg",
+    image: "/__l5e/assets-v1/e48f768f-ca1c-4349-97b0-2695fafc66f6/fulgor-del-alba.jpg",
     gradient: "linear-gradient(135deg,#fbc2eb,#e91e63)",
   },
   {
@@ -265,7 +265,7 @@ export const products: Product[] = [
     price: 20000,
     category: "Inspiracional",
     models: ["iPhone 11", "iPhone 12"],
-    image: "/__l5e/assets-v1/6885055c-0ecf-46fd-8187-8a2a6eb0db30/reflejo-divino.jpg",
+    image: "/__l5e/assets-v1/e11c2453-6c75-4168-a41a-faac4b9c97ba/reflejo-divino.jpg",
     gradient: "linear-gradient(135deg,#fafafa,#e0e0e0)",
   },
   {
@@ -285,7 +285,7 @@ export const products: Product[] = [
     price: 18000,
     category: "Inspiracional",
     models: ["iPhone 13"],
-    image: "/__l5e/assets-v1/875a1f91-7528-495f-8bf7-8866976505cf/promesa-divina.jpg",
+    image: "/__l5e/assets-v1/9e43c156-79d9-4f6b-bd10-e1c65ca69511/promesa-divina.jpg",
     gradient: "linear-gradient(135deg,#f5f5f0,#d4c9a8)",
   },
   {
@@ -315,7 +315,7 @@ export const products: Product[] = [
     price: 27000,
     category: "Platino",
     models: ["iPhone 11", "iPhone 12"],
-    image: "/__l5e/assets-v1/06649280-400b-488f-99a6-efa3ef0b1b80/corazon-merengue.jpg",
+    image: "/__l5e/assets-v1/e401e19a-afec-47a6-b40f-168f9e42ff35/corazon-merengue.jpg",
     gradient: "linear-gradient(135deg,#ffffff,#e0e0e0,#c9a227)",
   },
   {
@@ -325,7 +325,7 @@ export const products: Product[] = [
     price: 20000,
     category: "Platino",
     models: ["iPhone 11", "iPhone 12"],
-    image: "/__l5e/assets-v1/83d2a7c6-cedf-407d-ade7-d09f0f6e049e/dorsal-real.jpg",
+    image: "/__l5e/assets-v1/e5804431-8256-4e88-9b6d-e8b49986316c/dorsal-real.jpg",
     gradient: "linear-gradient(135deg,#1a1a1a,#3a3a3a)",
   },
   {
@@ -371,7 +371,7 @@ export const products: Product[] = [
     price: 25000,
     category: "Visión",
     models: ["iPhone 14"],
-    image: "/__l5e/assets-v1/47f7058a-78b3-44bd-be38-5cd64fc53ff3/claridad.jpg",
+    image: "/__l5e/assets-v1/7fe2700c-f211-4bc9-9f97-a6dc47e4c484/claridad.jpg",
     gradient: "linear-gradient(135deg,#2a2a2a,#ff6b1a)",
   },
 ];
