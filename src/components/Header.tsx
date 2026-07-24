@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { Menu, X, MessageCircle } from "lucide-react";
 import { getWhatsAppUrl } from "@/lib/whatsapp";
+import logoAsset from "@/assets/logo-vaina.png.asset.json";
 
 const links = [
   { href: "#inicio", label: "Inicio" },
@@ -30,9 +31,11 @@ export function Header() {
     >
       <div className="container-x flex h-16 items-center justify-between md:h-20">
         <a href="#inicio" className="group flex items-center gap-2">
-          <span className="grid h-8 w-8 place-items-center rounded-full border border-[color:var(--color-gold)] text-[color:var(--color-gold)] text-sm font-bold transition-transform group-hover:scale-105">
-            V
-          </span>
+          <img
+            src={logoAsset.url}
+            alt="Vaina Pro Max"
+            className="h-10 w-10 rounded-full object-contain transition-transform group-hover:scale-105 md:h-11 md:w-11"
+          />
           <span className="text-[0.82rem] font-semibold tracking-[0.28em] uppercase">
             Vaina <span className="gold-text">Pro Max</span>
           </span>
