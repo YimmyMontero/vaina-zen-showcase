@@ -20,7 +20,7 @@ export function Hero() {
         <div className="animate-float-up">
           <h1 className="text-5xl font-semibold leading-[1.02] tracking-tight md:text-7xl lg:text-[5.5rem]">
             Fundas Premium <br />
-            para <span className="gold-shimmer">iPhone</span> en Chía
+            para <span className="gold-shimmer">iPhone</span>
           </h1>
           <p className="mt-6 max-w-lg text-base leading-relaxed text-[color:var(--color-mist)] md:text-lg">
             Descubre productos seleccionados para quienes buscan calidad, diseño
