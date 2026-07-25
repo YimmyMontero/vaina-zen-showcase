@@ -24,7 +24,7 @@ export function Hero() {
           </h1>
           <p className="mt-6 max-w-lg text-base leading-relaxed text-[color:var(--color-mist)] md:text-lg">
             Descubre productos seleccionados para quienes buscan calidad, diseño
-            y una experiencia diferente. Fundas premium para iPhone 11, 12, 13 y 14.
+            y una experiencia diferente. Fundas premium para iPhone 11, 12, 13, 14, 15, 16 y 17.
           </p>
 
           <div className="mt-9 flex flex-wrap items-center gap-3">
@@ -48,7 +48,7 @@ export function Hero() {
               <MapPin className="h-3.5 w-3.5 text-[color:var(--color-gold)]" />
               {siteConfig.location}
             </span>
-            <span>iPhone 11 · 12 · 13 · 14</span>
+            <span>iPhone 11 · 12 · 13 · 14 · 15 · 16 · 17</span>
             <span>Envíos nacionales</span>
           </div>
         </div>
