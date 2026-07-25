@@ -20,8 +20,8 @@ export function Hero() {
         <div className="animate-float-up">
           <span className="eyebrow">Catálogo V.05.02 · Chía</span>
           <h1 className="mt-6 text-5xl font-semibold leading-[1.02] tracking-tight md:text-7xl lg:text-[5.5rem]">
-            ELEVA <br />
-            TU <span className="gold-shimmer">ESTILO</span>
+            Fundas Premium <br />
+            para <span className="gold-shimmer">iPhone</span> en Chía
           </h1>
           <p className="mt-6 max-w-lg text-base leading-relaxed text-[color:var(--color-mist)] md:text-lg">
             Descubre productos seleccionados para quienes buscan calidad, diseño
