@@ -18,8 +18,7 @@ export function Hero() {
 
       <div className="container-x relative grid gap-12 pb-20 md:grid-cols-[1.05fr_1fr] md:items-center md:gap-16 md:pb-32">
         <div className="animate-float-up">
-          <span className="eyebrow">Catálogo V.05.02 · Chía</span>
-          <h1 className="mt-6 text-5xl font-semibold leading-[1.02] tracking-tight md:text-7xl lg:text-[5.5rem]">
+          <h1 className="text-5xl font-semibold leading-[1.02] tracking-tight md:text-7xl lg:text-[5.5rem]">
             Fundas Premium <br />
             para <span className="gold-shimmer">iPhone</span> en Chía
           </h1>
