@@ -1,7 +1,6 @@
 import { Instagram, Facebook, MessageCircle } from "lucide-react";
 import { siteConfig } from "@/config/site";
 import { getWhatsAppUrl } from "@/lib/whatsapp";
-import logoAsset from "@/assets/logo-vaina.png.asset.json";
 
 export function Footer() {
   return (
@@ -10,7 +9,7 @@ export function Footer() {
         <div>
           <div className="flex items-center gap-2">
             <img
-              src={logoAsset.url}
+              src="/images/logo-vaina.png"
               alt="Vaina Pro Max"
               className="h-11 w-11 rounded-full object-contain"
             />
